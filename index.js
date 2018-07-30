@@ -60,7 +60,7 @@ function total() {
 function removeFromCart(item) {
 let cart = getCart()
 let look = 
-for ()
+for for (var i = 0; i < cart.length; i++) {
 if (cart.includes(item)) {
  for (var i = 0; i < cart.length; i++) {
    if (item === cart[i].itemName) {
