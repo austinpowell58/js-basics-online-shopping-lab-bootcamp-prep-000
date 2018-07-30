@@ -59,7 +59,7 @@ function total() {
 
 function removeFromCart(item) {
 let cart = getCart()
-if (cart.includes(item)) // I think this line may be the problem {
+if (cart.includes(item)) {
  for (var i = 0; i < cart.length; i++) {
    if (item === cart[i].itemName) {
    cart.splice(i , i)
