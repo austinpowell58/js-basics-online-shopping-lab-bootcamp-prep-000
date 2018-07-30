@@ -62,9 +62,9 @@ let cart = getCart()
 let look = cart[i].itemName
 for (var i = 0; i < cart.length; i++) {
 if (cart.includes(look)) {
- for (var i = 0; i < cart.length; i++) {
-   if (item === cart[i].itemName) {
-   cart.splice(i , i)
+ for (var x = 0; x < cart.length; x++) {
+   if (item === cart[x].itemName) {
+   cart.splice(x , x)
    return cart
   } 
    else {
