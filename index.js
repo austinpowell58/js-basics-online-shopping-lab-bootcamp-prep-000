@@ -48,11 +48,11 @@ function viewCart() {
 
 function total() {
   // write your code here use a for loop to 1. get into the each object
-  var add = 0
+  var cartTotal = 0
   for (var i = 0 ; i < cart.length; i++) {
     add += cart[i].itemPrice; 
   }
-  return add
+  return cartTotal
 }
 
 function removeFromCart(item) {
