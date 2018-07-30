@@ -58,7 +58,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-if (cart.includes(item))
+if (cart.includes(item)) {
  for (var i = 0; i < cart.length; i++) {
    getCart()
    if (item === cart[i].itemName) {
@@ -68,9 +68,11 @@ if (cart.includes(item))
    else {
      console.log("Next")
   }
-  
  }
- 
+ }
+else {
+  return 
+}
 }
 
 function placeOrder(cardNumber = ``) {
