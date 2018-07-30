@@ -60,7 +60,7 @@ function total() {
 function removeFromCart(item) {
 let cart = getCart()
 let look = 
-for for (var i = 0; i < cart.length; i++) {
+for (var i = 0; i < cart.length; i++) {
 if (cart.includes(item)) {
  for (var i = 0; i < cart.length; i++) {
    if (item === cart[i].itemName) {
@@ -74,6 +74,7 @@ if (cart.includes(item)) {
  }
 else {
   return `That item is not in your cart.`
+}
 }
 }
 
