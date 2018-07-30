@@ -65,7 +65,7 @@ let cart = getCart()
    return cart
   } 
    else {
-     return 'That item is not your cart.'
+     console.log('That item is not your cart.')
   }
  }
 }
