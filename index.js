@@ -44,17 +44,15 @@ function viewCart() {
   return `In your cart, you have ${itemprices}.`
 }
 
-function getSum(total, num) {
-    return total + Math.round(num);
-}
+
 
 function total() {
   // write your code here use a for loop to 1. get into the each object
-  var total = 0
+  var add = 0
   for (var i = 0 ; i < cart.length; i++) {
-    total += cart[i].itemPrice; 
+    add += cart[i].itemPrice; 
   }
-  return total
+  return add
 }
 
 function removeFromCart(item) {
