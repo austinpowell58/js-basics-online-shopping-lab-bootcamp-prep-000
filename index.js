@@ -66,7 +66,7 @@ let cart = getCart()
    return cart
   } 
    else {
-     return 'That item is not your'
+     return 'That item is not in your cart.'
   }
  }
  }
